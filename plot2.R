@@ -24,10 +24,6 @@ plot(select_days_df$datetime, select_days_df$Global_active_power
      , xlab = ""
      , ylab = "Global Active Power (kilowatts)")
 
-#hist(select_days_df$Global_active_power, col="red"
-#     ,main = "Global Active Power"
-#     ,xlab = "Global Active Power (kilowatts)" )
-
 # save to PNG
 dev.off()
 
